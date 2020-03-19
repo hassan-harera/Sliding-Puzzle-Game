@@ -33,7 +33,7 @@ public class PuzzleBoard extends JFrame {
                 Label l = new Label();
                 labels[i][j] = new Label();
                 l.setLocation(panels[i][j].getX() / 2, panels[i][j].getY() / 2);
-                l.setFont(new Font(l.getName(), Font.BOLD, 36));;
+                l.setFont(new Font(l.getName(), Font.BOLD, 36));
 
                 while (list.size() < 15) {
                     Random r = new Random();
@@ -150,8 +150,8 @@ public class PuzzleBoard extends JFrame {
                     num++;
                 }
             }
-            new Win().setVisible(true);
             frame.dispose();
+            new Winner().setVisible(true);
         }
     }
 }
