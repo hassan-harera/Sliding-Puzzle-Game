@@ -10,5 +10,5 @@
 <br/>
 
 <h2>Winning Interface</h2>
-<img src="screenshots/game board.png" width="400" height="400"/>
+<img src="screenshots/winner page.png" width="400" height="400"/>
 <br/>
